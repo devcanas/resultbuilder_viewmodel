@@ -11,7 +11,7 @@ import SwiftUI
 struct Result_Builders_as_View_modelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ViewModel())
         }
     }
 }
